@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Slackside+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1250px;
+}
+
+:root {
+    --main-color: #7D7987;
+    --text-color: #000000;
+    --btn-color: #458FF6;
+    --menu-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+/* ====================header============== */
+.header {
+    margin-top: 56px;
+}
+
+.picture1 {
+    position: absolute;
+    top: 160px;
+}
+
+.header-wrap {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    gap: 40px;
+}
+
+.menu a {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 24px;
+    opacity: 50%;
+}
+
+.menu .el1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text-color);
+    line-height: 24px;
+    opacity: 100%;
+}
+
+/* =======================main sec1==================== */
+.section1 {
+    margin-top: 84px;
+}
+
+.section1-wrap {
+    gap: 109px;
+    align-items: center;
+}
+
+.section1-wrap>div>h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+
+.section1-wrap>div>p {
+    font-size: 21px;
+    font-weight: 300;
+    font-family: "Mulish", sans-serif;
+    line-height: 30px;
+    color: var(--main-color);
+    margin-bottom: 25px;
+}
+
+.sec1-btn {
+    border-radius: 50px;
+    background-color: var(--btn-color);
+    width: 200px;
+    height: 56px;
+}
+
+.sec1-btn>a {
+    padding: 40px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+/* ======================section2======================= */
+.section2 {
+    margin-top: 190px;
+}
+
+.sec2_title {
+    text-align: center;
+}
+
+.sec2_title>h3 {
+    font-family: "Mulish", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #000000;
+    margin-left: 48%;
+    margin-bottom: 30px;
+}
+
+.sec2_title>p {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--main-color);
+    margin-bottom: 80px;
+}
+
+.sec2_menu>div {
+    padding: 40px;
+    width: 300px;
+    height: 304px;
+    background-color: var(--menu-color);
+    box-shadow: 1px 1px 2px 0px black;
+    border-radius: 20px;
+}
+.sec2_menu>div>h5{
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.sec2_menu>div>p{
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--main-color);
+    width: 266px;
+}
+.sec2_menu{
+    margin-left: 30px;
+    flex-wrap: wrap;
+    flex-direction: calc((100% - 20px) /3);
+    gap: 35px;
+}
+.sec2_menu>div:hover{
+    background-color:#f9efef;
+    box-shadow: 3px 2px 4px 0px black;
+}
+.sec2-btn{
+    border: 1px solid var(--btn-color);
+    border-radius: 50px;
+    width: 200px;
+    height: 80px;
+    margin-left: 42%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.sec2-btn>a{
+    padding: 50px;
+    line-height: 75px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:var(--btn-color);
+}
+/* ===================section3=============== */
+.providers{
+    margin-left: 140px;
+}
+.providers>h3{
+    font-family: "Mulish", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+.providers>p{
+    margin-top: 30px;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+.providers>.line{
+    margin: 0;
+}
+.providers>.sec2-btn{
+    margin: 0;
+}
+/* ============================section4=================== */
+.sec4_wrap{
+    gap: 140px;
+    margin-top: 200px;
+}
+.Apps>h3{
+    font-family: "Mulish", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+.Apps>p{
+    margin-top: 30px;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+.Apps>.line{
+    margin: 0;
+}
+.Apps>.sec2-btn{
+    margin: 0;
+}
+.Apps>.sec2-btn>img{
+    margin-left: -40px;
+}
